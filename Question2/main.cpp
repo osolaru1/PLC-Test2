@@ -4,9 +4,7 @@
 #include <algorithm> // std::make_heap, std::pop_heap, std::push_heap, std::sort_heap
 #include <vector> // std::vector
 #include <chrono> //std::chrono;
-//Source: https://brainly.com/question/16016496
-//https://www.geeksforgeeks.org/measure-execution-time-function-cpp/
-//Im not a 100% on how to go about this problem so I used some help with is answer from brainly
+
 
 using namespace std;
 using namespace std::chrono; 
