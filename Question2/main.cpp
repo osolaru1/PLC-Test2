@@ -66,7 +66,7 @@ cout << "Time taken by StaticStack function: "
 //Heap() 3
 int k;
 auto start3 = high_resolution_clock::now(); 
-for(j=0;j<100000;j++){
+for(k=0;k<100000;k++){
 Heap();
 }
 auto stop3 = high_resolution_clock::now();
