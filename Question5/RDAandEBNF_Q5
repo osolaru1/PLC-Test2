@@ -1,0 +1,97 @@
+Question5 
+
+**********while statement********************
+RDA:
+
+main while_stmt()
+{
+while(token=='+' ||token=='-')
+if(token== '+'){
+System.out.println("PLUS_OP");
+}else if (token== '-'){
+System.out.println("PLUS_OP");
+}else{
+System.out.println("<SPACE>");
+}
+}
+
+/*
+EBNF for whilestatement
+<while_stmt> ::= while <condition> {<statement>}
+<condition> ::=<expr> {<statement>}
+<expr>= <identifier> | <op>
+*/
+
+
+********************************************
+**********Assignment statement********************
+RDA:
+main assign(){
+String var = op;
+String op [] ={'+','-','*','++','--','{','}','(',')'};
+
+
+}
+
+/*
+EBNF for assignment statement
+<assignment> ::= <var>=<expr>
+<var> ::= <id> | <op>
+<op> ::=  + | - | * | ++ | -- | { | } | (| )
+
+*/
+
+*****************************************
+**********if statement********************
+RDA:
+
+main if_stmt{
+if(token== '+'){
+System.out.println("PLUS_OP");
+}
+}else{
+System.out.println("<SPACE>");
+}
+
+
+/*
+EBNF if assignment statement
+<if_stmt> ::= if <expr> <stmt> [ else <stmt> ]
+<var>::=<expr> | <op>
+
+*/
+
+***********************************************
+
+******logical/mathematical expression************
+RDA:
+
+main expr(){
+
+double expr= var ;
+if(token=='+'){
+match('+')
+System.out.println("PLUS_OP");
+expr= expr + var;
+}else{
+match('-')
+System.out.println("SUB_OP");
+expr= expr - var;
+
+}
+
+
+}
+
+
+
+
+
+/*
+EBNF for logical/mathematical expression
+<expr> ::= <expr> (+|-) <expr> 
+*/
+
+*************************************************
+
+
